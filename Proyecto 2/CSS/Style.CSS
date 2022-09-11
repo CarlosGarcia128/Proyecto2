@@ -1,0 +1,111 @@
+.divEncabezado{
+    background-image: url("../IMG/Banner2.png");
+    width: 100%;
+    height: 255px;
+}
+.divTitulo{
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', Times, serif;
+    text-align: center;
+}
+.divcentraTabla table {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 1px;
+    background: rgb(255, 249, 249);
+    color: #fff; 
+}
+td {
+    width: 15%;
+	height: 50px;
+    background-color: rgba(53, 50, 50, 0.705);
+    transition: background-color .5s;
+}
+td:hover
+{
+    background-color: rgb(148, 148, 141);
+    
+}
+a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+.divimg table
+{
+    background-image: url("../IMG/1.jpg");
+    width: 30%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 100px; 
+}
+
+
+
+.divTituloD{
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', Times, serif;
+    text-align: center;
+}
+.divregresar1
+{
+    font-size: 16px; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	color: #ffffff; 
+	border-radius: 5px; 
+	letter-spacing: 2px; 
+	background-color: #1e43e9; 
+	padding: 18px 30px; 
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.divregresar1:hover {
+	background-color: #2c8da5; 
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+
+
+.divtxt1 
+{
+    margin: 0 auto;
+    width: 54%;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', Times, serif;
+    justify-content: justify;
+}
+.divtxt2
+{
+    margin: 0 auto;
+    width: 54%;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', Times, serif;
+    justify-content: justify;
+}
+.divtxt3
+{
+    margin: 0 auto;
+    width: 49%;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', Times, serif;
+    justify-content: justify;
+}
+.divtxt4
+{
+    margin: 0 auto;
+    width: 47%;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', Times, serif;
+    justify-content: justify;
+}
+
+.divVídeo{
+    text-align: center;
+}
